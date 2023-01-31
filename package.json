@@ -1,8 +1,8 @@
-{  
+{
   "name": "@vdzhyranov/dzhy",
   "author": "vDzhyranov",
   "version": "0.1.0",
-    "publishConfig": {
+  "publishConfig": {
     "registry": "https://npm.pkg.github.com/@vdzhyranov"
   },
   "license": "MIT",
@@ -45,8 +45,10 @@
     }
   ],
   "devDependencies": {
-    "@headlessui/react": "1.7.8",
+    "formik": "2.2.9",
     "@babel/core": "7.20.12",
+    "@headlessui/react": "1.7.8",
+    "@heroicons/react": "2.0.13",
     "@size-limit/preset-small-lib": "8.1.2",
     "@storybook/addon-essentials": "6.5.16",
     "@storybook/addon-info": "5.3.21",
